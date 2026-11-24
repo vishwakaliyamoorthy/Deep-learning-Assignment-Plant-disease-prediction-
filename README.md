@@ -48,9 +48,29 @@ Everything is written to the `outputs/` folder:
 
 ## 4. Predict one image
 ```
-python predict.py path\to\leaf.jpg
+python predict.py path/to/leaf.jpg
 ```
 Example output: `Result: Tomato - Early blight (94.1% confidence)  ->  Diseased`
+
+## 5. Interactive Demo Desktop UI & Live Camera
+Run the desktop GUI application:
+```bash
+python demo_app.py
+```
+Features:
+- **Upload Leaf Image**: Select any leaf image from disk with automatic aspect ratio preview.
+- **Live Camera Viewfinder**: Open `/dev/video0` live stream to frame and snap a leaf photo (`Spacebar` to snap, `Esc` to cancel).
+- **Load Curated Test Samples**: 1-click test selector with 30 diverse healthy and diseased leaves from `eval_test_data/`.
+- **Diagnosis Card**: Instant classification, health status badge (Healthy / Diseased / Uncertain), confidence meter, and top-3 candidates.
+
+## 6. Manual Evaluation Dataset
+A dedicated set of 30 balanced leaf test images is packaged in `eval_test_data/` for manual testing and grading:
+- `eval_test_data/test_data.csv`: Test manifest listing sample ID, filename, image path, crop, disease condition, true class, and ground-truth status.
+- `eval_test_data/images/`: 30 clean leaf image files.
+- To re-generate or modify this test set:
+```bash
+python create_eval_data.py
+```
 
 ## Troubleshooting
 * **"Dataset folder not found"** - run step 2, or pass `--data-dir`.
