@@ -1,0 +1,31 @@
+sample_id,filename,image_path,crop,condition,true_class,status,notes
+SMP-001,sample_01_apple_apple_scab.jpg,eval_test_data/images/sample_01_apple_apple_scab.jpg,Apple,Apple Scab,Apple___Apple_scab,Diseased,Ground-truth diseased leaf sample from Apple
+SMP-002,sample_02_apple_black_rot.jpg,eval_test_data/images/sample_02_apple_black_rot.jpg,Apple,Black Rot,Apple___Black_rot,Diseased,Ground-truth diseased leaf sample from Apple
+SMP-003,sample_03_apple_cedar_apple_rust.jpg,eval_test_data/images/sample_03_apple_cedar_apple_rust.jpg,Apple,Cedar Apple Rust,Apple___Cedar_apple_rust,Diseased,Ground-truth diseased leaf sample from Apple
+SMP-004,sample_04_apple_healthy.jpg,eval_test_data/images/sample_04_apple_healthy.jpg,Apple,Healthy,Apple___healthy,Healthy,Ground-truth healthy leaf sample from Apple
+SMP-005,sample_05_blueberry_healthy.jpg,eval_test_data/images/sample_05_blueberry_healthy.jpg,Blueberry,Healthy,Blueberry___healthy,Healthy,Ground-truth healthy leaf sample from Blueberry
+SMP-006,sample_06_cherry_powdery_mildew.jpg,eval_test_data/images/sample_06_cherry_powdery_mildew.jpg,Cherry,Powdery Mildew,Cherry_(including_sour)___Powdery_mildew,Diseased,Ground-truth diseased leaf sample from Cherry
+SMP-007,sample_07_cherry_healthy.jpg,eval_test_data/images/sample_07_cherry_healthy.jpg,Cherry,Healthy,Cherry_(including_sour)___healthy,Healthy,Ground-truth healthy leaf sample from Cherry
+SMP-008,sample_08_corn_common_rust.jpg,eval_test_data/images/sample_08_corn_common_rust.jpg,Corn,Common Rust,Corn_(maize)___Common_rust_,Diseased,Ground-truth diseased leaf sample from Corn
+SMP-009,sample_09_corn_northern_leaf_blight.jpg,eval_test_data/images/sample_09_corn_northern_leaf_blight.jpg,Corn,Northern Leaf Blight,Corn_(maize)___Northern_Leaf_Blight,Diseased,Ground-truth diseased leaf sample from Corn
+SMP-010,sample_10_corn_healthy.jpg,eval_test_data/images/sample_10_corn_healthy.jpg,Corn,Healthy,Corn_(maize)___healthy,Healthy,Ground-truth healthy leaf sample from Corn
+SMP-011,sample_11_grape_black_rot.jpg,eval_test_data/images/sample_11_grape_black_rot.jpg,Grape,Black Rot,Grape___Black_rot,Diseased,Ground-truth diseased leaf sample from Grape
+SMP-012,sample_12_grape_esca_black_measles.jpg,eval_test_data/images/sample_12_grape_esca_black_measles.jpg,Grape,Esca (Black Measles),Grape___Esca_(Black_Measles),Diseased,Ground-truth diseased leaf sample from Grape
+SMP-013,sample_13_grape_healthy.jpg,eval_test_data/images/sample_13_grape_healthy.jpg,Grape,Healthy,Grape___healthy,Healthy,Ground-truth healthy leaf sample from Grape
+SMP-014,sample_14_orange_citrus_greening.jpg,eval_test_data/images/sample_14_orange_citrus_greening.jpg,Orange,Citrus Greening,Orange___Haunglongbing_(Citrus_greening),Diseased,Ground-truth diseased leaf sample from Orange
+SMP-015,sample_15_peach_bacterial_spot.jpg,eval_test_data/images/sample_15_peach_bacterial_spot.jpg,Peach,Bacterial Spot,Peach___Bacterial_spot,Diseased,Ground-truth diseased leaf sample from Peach
+SMP-016,sample_16_peach_healthy.jpg,eval_test_data/images/sample_16_peach_healthy.jpg,Peach,Healthy,Peach___healthy,Healthy,Ground-truth healthy leaf sample from Peach
+SMP-017,sample_17_pepper_bell_bacterial_spot.jpg,eval_test_data/images/sample_17_pepper_bell_bacterial_spot.jpg,Pepper Bell,Bacterial Spot,"Pepper,_bell___Bacterial_spot",Diseased,Ground-truth diseased leaf sample from Pepper Bell
+SMP-018,sample_18_pepper_bell_healthy.jpg,eval_test_data/images/sample_18_pepper_bell_healthy.jpg,Pepper Bell,Healthy,"Pepper,_bell___healthy",Healthy,Ground-truth healthy leaf sample from Pepper Bell
+SMP-019,sample_19_potato_early_blight.jpg,eval_test_data/images/sample_19_potato_early_blight.jpg,Potato,Early Blight,Potato___Early_blight,Diseased,Ground-truth diseased leaf sample from Potato
+SMP-020,sample_20_potato_late_blight.jpg,eval_test_data/images/sample_20_potato_late_blight.jpg,Potato,Late Blight,Potato___Late_blight,Diseased,Ground-truth diseased leaf sample from Potato
+SMP-021,sample_21_potato_healthy.jpg,eval_test_data/images/sample_21_potato_healthy.jpg,Potato,Healthy,Potato___healthy,Healthy,Ground-truth healthy leaf sample from Potato
+SMP-022,sample_22_strawberry_leaf_scorch.jpg,eval_test_data/images/sample_22_strawberry_leaf_scorch.jpg,Strawberry,Leaf Scorch,Strawberry___Leaf_scorch,Diseased,Ground-truth diseased leaf sample from Strawberry
+SMP-023,sample_23_strawberry_healthy.jpg,eval_test_data/images/sample_23_strawberry_healthy.jpg,Strawberry,Healthy,Strawberry___healthy,Healthy,Ground-truth healthy leaf sample from Strawberry
+SMP-024,sample_24_tomato_bacterial_spot.jpg,eval_test_data/images/sample_24_tomato_bacterial_spot.jpg,Tomato,Bacterial Spot,Tomato___Bacterial_spot,Diseased,Ground-truth diseased leaf sample from Tomato
+SMP-025,sample_25_tomato_early_blight.jpg,eval_test_data/images/sample_25_tomato_early_blight.jpg,Tomato,Early Blight,Tomato___Early_blight,Diseased,Ground-truth diseased leaf sample from Tomato
+SMP-026,sample_26_tomato_late_blight.jpg,eval_test_data/images/sample_26_tomato_late_blight.jpg,Tomato,Late Blight,Tomato___Late_blight,Diseased,Ground-truth diseased leaf sample from Tomato
+SMP-027,sample_27_tomato_leaf_mold.jpg,eval_test_data/images/sample_27_tomato_leaf_mold.jpg,Tomato,Leaf Mold,Tomato___Leaf_Mold,Diseased,Ground-truth diseased leaf sample from Tomato
+SMP-028,sample_28_tomato_septoria_leaf_spot.jpg,eval_test_data/images/sample_28_tomato_septoria_leaf_spot.jpg,Tomato,Septoria Leaf Spot,Tomato___Septoria_leaf_spot,Diseased,Ground-truth diseased leaf sample from Tomato
+SMP-029,sample_29_tomato_yellow_leaf_curl_virus.jpg,eval_test_data/images/sample_29_tomato_yellow_leaf_curl_virus.jpg,Tomato,Yellow Leaf Curl Virus,Tomato___Tomato_Yellow_Leaf_Curl_Virus,Diseased,Ground-truth diseased leaf sample from Tomato
+SMP-030,sample_30_tomato_healthy.jpg,eval_test_data/images/sample_30_tomato_healthy.jpg,Tomato,Healthy,Tomato___healthy,Healthy,Ground-truth healthy leaf sample from Tomato
